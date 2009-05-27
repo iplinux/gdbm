@@ -1,0 +1,6 @@
+01_texinfo-usr-local
+02_zero-headers
+03_autoreconf
+04_fix-gdbm-compat-linking
+05_handle-short-read
+06_manpage-cleanup
