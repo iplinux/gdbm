@@ -1,8 +1,9 @@
 Source: gdbm
 Section: libs
 Priority: important
-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Maintainer: Alexander V. Nikolaev <avn@daemon.hole.ru>
 Build-Depends: texinfo, dpatch
+XCS-Cross-Host-Build-Depends: texinfo, dpatch
 Standards-Version: 3.8.0
 Homepage: http://www.gnu.org/software/gdbm/gdbm.html
 
