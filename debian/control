@@ -1,5 +1,5 @@
 Source: gdbm
-Section: libs
+Section: core
 Priority: important
 Maintainer: Alexander V. Nikolaev <avn@daemon.hole.ru>
 Build-Depends: texinfo, dpatch
@@ -9,6 +9,7 @@ Homepage: http://www.gnu.org/software/gdbm/gdbm.html
 
 Package: libgdbm3
 Architecture: any
+Section: core
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: GNU dbm database routines (runtime version)
  GNU dbm ('gdbm') is a library of database functions that use extendible
@@ -23,7 +24,7 @@ Architecture: any
 Depends: libc6-dev | libc-dev, libgdbm3 (= ${binary:Version})
 Conflicts: libgdbm1-dev, libgdbmg1-dev
 Replaces: libgdbmg1-dev
-Section: libdevel
+Section: core
 Priority: optional
 Description: GNU dbm database routines (development files)
  GNU dbm ('gdbm') is a library of database functions that use extendible 
